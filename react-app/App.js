@@ -1,7 +1,10 @@
 import * as React from 'react';
+import {useEffect} from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createDrawerNavigator } from '@react-navigation/drawer';
+
+
 
 // Screens for the tabs
 import HomeScreen from './screens/HomeScreen'; 
